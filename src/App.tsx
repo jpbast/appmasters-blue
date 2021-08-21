@@ -9,6 +9,7 @@ const App = () => {
     <ThemeProvider theme={Theme}>
       <GlobalStyle />
       <Home />
+      <div>{process.env.REACT_APP_VARIABLE}</div>
     </ThemeProvider>
   );
 };
